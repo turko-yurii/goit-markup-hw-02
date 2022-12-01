@@ -1,0 +1,144 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+
+/*header*/
+.header-list {
+    list-style: none;
+}
+.header-link {
+font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.navigation-list{
+    list-style: none;
+}
+.navigation-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*header-top*/
+.header-top {
+    background: #2E2F42;
+}
+
+.header-top-list {
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+}
+
+.header-top-button {
+        position: absolute;
+        width: 170px;
+        height: 51px;
+        left: 635px;
+        top: 432px;
+        background: #4D5AE5;
+}
+
+/*rule*/
+.rule {
+    list-style: none;
+}
+
+.rule-list {
+    font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.rule-item {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/*section1*/
+.work-photo{
+    font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+         color: #2E2F42;
+}
+.work-spase{
+    list-style: none;
+}
+/*section2*/
+.team-photo{
+    font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+.team-spase{
+    list-style: none;
+}
+
+.team-photo-name {
+font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team-photo-job {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*fotter*/
+.footer-color{
+    background: #2E2F42;
+}
+.footer-list{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #E7E9FC;
+}
+
+/*portfolio-navigation*/
+.nav-list-color{
+    list-style: none;
+}
+
+.nav-list {
+    width: 116px;
+        height: 48px;
+        background: #F4F4FD;
+}
+
+.nav-link {
+    font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+         display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+}
