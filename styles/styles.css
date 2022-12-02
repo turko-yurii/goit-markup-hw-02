@@ -1,5 +1,6 @@
 
 body{
+    font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
 }
@@ -8,21 +9,48 @@ body{
 .header-list {
     list-style: none;
 }
+.header{
+    background: #FFFFFF;
+    
+}
+.webstudio {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+    text-decoration: none;
+}
+.other-color{
+        text-decoration: none;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
+
 .header-link {
-font-weight: 600;
+    font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-decoration: none;
 }
 .navigation-list{
     list-style: none;
 }
 .navigation-link {
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.5px;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 
 /*header-top*/
@@ -33,19 +61,19 @@ font-weight: 600;
 .header-top-list {
         font-weight: 600;
         font-size: 56px;
-        line-height: 60px;
+        line-height: (60 / 56);
         text-align: center;
         letter-spacing: 0.02em;
         color: #FFFFFF;
 }
 
 .header-top-button {
-        position: absolute;
-        width: 170px;
-        height: 51px;
-        left: 635px;
-        top: 432px;
-        background: #4D5AE5;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: (19 / 16);
+    letter-spacing: 0.04em;
+     color: #FFFFFF;
+    background: #4D5AE5;
 }
 
 /*rule*/
@@ -56,14 +84,14 @@ font-weight: 600;
 .rule-list {
     font-weight: 600;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 1.20;
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
 
 .rule-item {
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.20px;
         letter-spacing: 0.02em;
         color: #434455;
 }
@@ -71,7 +99,7 @@ font-weight: 600;
 .work-photo{
     font-weight: 600;
         font-size: 36px;
-        line-height: 40px;
+        line-height: (40 / 60);
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
@@ -84,7 +112,7 @@ font-weight: 600;
 .team-photo{
     font-weight: 600;
         font-size: 36px;
-        line-height: 40px;
+        line-height: (40 / 36);
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
@@ -97,7 +125,7 @@ font-weight: 600;
 .team-photo-name {
 font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: (24 / 20);
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
@@ -105,7 +133,7 @@ font-weight: 600;
 
 .team-photo-job {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.20;
     text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
@@ -113,35 +141,53 @@ font-weight: 600;
 /*fotter*/
 .footer-color{
     background: #2E2F42;
+    
 }
+.webstudio-footer {
+        text-decoration: none;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16px;
+        letter-spacing: 0.03em;
+         color: #F4F4FD;
+} 
 .footer-list{
         font-size: 16px;
-        line-height: 24px;
+        line-height: (24 / 16);
         letter-spacing: 0.02em;
         color: #E7E9FC;
 }
 
 /*portfolio-navigation*/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .nav-list-style{
     list-style: none;
 }
-
-.nav-list {
-    width: 116px;
-        height: 48px;
-        background: #F4F4FD;
-}
-
-.nav-link {
+.nav-list-item{
     font-weight: 600;
-        font-size: 16px;
-        line-height: 24px;
-         display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.04em;
-        color: #4D5AE5;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4D5AE5; 
+     background: #F4F4FD;
 }
+.nav-list-item:hover,
+.nav-list-item:focus{
+    background: #4D5AE5;
+    color: white;
+}
+
 /*portfolio section*/
 .nav-list-style ul{
     list-style: none;
@@ -152,14 +198,14 @@ font-weight: 600;
 .section-title {
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: (24 / 20);
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
 .section-subtitle {
     font-size: 16px;
-    line-height: 24px;
+    line-height: (24 / 16);
     letter-spacing: 0.02em;
     color: #434455;
 }
